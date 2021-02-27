@@ -11,7 +11,7 @@ sudo apt install samba
 - Press Windows Key + R to bring up the run dialog and type: optionalfeatures.
 - Expand “SMB 1.0/CIFS File Sharing Support” and then check the box next to “SMB 1.0/CIFS Client“
 - Click OK.
-- The installation will now proceed and you should be able to access shares using the SMB 1 Protocol again.<br><br>
+- The installation will now proceed and you should be able to access shares using the SMB 1 Protocol.<br><br>
 ![Samba Install Windows](installSambaWin.png)
 
 
