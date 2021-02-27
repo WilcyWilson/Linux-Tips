@@ -32,7 +32,8 @@ Use a text editor to edit or create the smb.conf file. You can use any text edit
 [wilcy@wilcy-pc samba]$ sudo nano smb.conf
 [sudo] password for wilcy:
 ```
-Overwrite the file with following texts:
+The [global] tab defines configuration for the actual samba share server.
+Write the following texts in smb.conf file using a text editor.
 ```
 [global]
         server role = standalone server
@@ -61,3 +62,34 @@ This defines any private ip address that will fall into a residental home addres
 - hosts deny = 0.0.0.0/0
 This denies anything that is not in the range above.
 Say a hacker gets in from an external ip he would be denied.
+
+The [sharetab] is used to define configuration for our particular share, say a folder,file or even an entire hard drive.
+Write the texts just after finishing the [global] tab configuration.
+```
+[Linux File System]
+        comment = Linux Main
+        path = /home/wilcy
+        read only = no
+        guest ok = yes
+        force user = wilcy
+        force group = wilcy
+```
+### Role of each command written above:
+- [Linux File System] is our share name
+
+- comment = Linux Main (This is just a info to ourselves on what this particular share is for)
+
+- path = /home/wilcy ( This defines the path to the share which can be path to any folder or even a drive like shown here)
+
+- read only = no ( This makes it possible for windows machine or other client accessing this particular samba share to write and read both)
+
+- guest ok = yes (This means anybody that accesses this particular share will be a guest)
+
+Right now, this linux share is not owned and operated by anybody, so, you being user wilcy in the linux system won't be able to write into this linuxshare or change the files in it. Therefore, we need to change this.
+
+- force user = wilcy (Anything that is created is associated with the username wilcy)
+
+- force group = wilcy (This basically makes it to the local user named wilcy, it makes it so you can easily do this. Anybody that creates anything on this share, will basically be assigned this user wilcy where the user can do anything with the file)
+
+Save the config file and exit.
+
