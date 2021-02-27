@@ -17,7 +17,15 @@ To install SSH: click on Start -> Settings Apps -> Apps and Features -> Manage O
 ![Installing SSH Client on Windows](sshInstallWin.gif)
 
 ## Checking SSH status on Linux
-```bash
-systemctl status sshd
+```console
+[wilcy@wilcy-pc ~]$ systemctl status sshd
+● sshd.service - OpenSSH Daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; vendor preset: disabled)
+     Active: active (running) since Sat 2021-02-27 10:54:21 +0545; 8min ago
+   Main PID: 434 (sshd)
+      Tasks: 1 (limit: 3563)
+     Memory: 3.3M
+     CGroup: /system.slice/sshd.service
+             └─434 sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups
 ```
-You can start,stop,restart services and do various stuff using <b>systemctl</b> or <b>service</b> command on Linux.
+You can also start,stop,restart other services like SSH using <b>systemctl</b> or <b>service</b> command on Linux.
