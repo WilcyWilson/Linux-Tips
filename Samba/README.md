@@ -108,6 +108,7 @@ Server role: ROLE_STANDALONE
 
 Press enter to see a dump of your service definitions
 ```
+
 ## Checking Samba status on Linux
 ```console
 [wilcy@wilcy-pc samba]$ systemctl status smb
@@ -131,4 +132,26 @@ Press enter to see a dump of your service definitions
 [wilcy@wilcy-pc samba]$ sudo systemctl restart smb
 ```
 You can also start,stop,restart other services like Samba using systemctl or service command on Linux.
+
+## Accessing Linux files on Windows shared through Samba
+Type the following command to find the Local IP Address of your Linux System.
+```console
+[wilcy@wilcy-pc ~]$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 1000
+    link/ether 00:30:18:a9:68:ad brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.111/24 brd 192.168.0.255 scope global dynamic noprefixroute enp3s4
+       valid_lft 3620sec preferred_lft 3620sec
+    inet6 fe80::7818:3e00:fd2f:e22f/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[wilcy@wilcy-pc ~]$ 
+```
+We can see 192.168.0.111 is the Local IP Address of our Linux system.
+
+On Windows System type the same IP Address in Windows Run \\192.168.0.111 as shown below:
 
