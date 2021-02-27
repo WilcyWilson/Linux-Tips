@@ -31,5 +31,15 @@ To install SSH: click on Start -> Settings Apps -> Apps and Features -> Manage O
 You can also start,stop,restart other services like SSH using <b>systemctl</b> or <b>service</b> command on Linux.
 
 ## Connecting to Linux PC from Windows 10 using SSH
-open command prompt on Windows -> follow the below steps
+open command prompt on Windows -> follow the below steps.
+![Logging into SSH](sshLogin.png)
+Here, <b>wilcy</b> is the Linux username and <b>wilcy-pc</b> is the hostname of the Linux System.
+type the following commands to know about hostname and username on Linux.
+```console
+[wilcy@wilcy-pc ~]$ whoami
+wilcy
+[wilcy@wilcy-pc ~]$ hostname
+wilcy-pc
+```
+
 
