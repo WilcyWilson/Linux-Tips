@@ -22,12 +22,12 @@ In Linux Terminal go to /etc/samba and create a smb.conf file if there are none.
 private  smb.conf
 [wilcy@wilcy-pc samba]$
 ```
-If there is already a default smb.conf file as shown above then you should rename the current smb.conf file to smb.conf.old as follows:
+If there is already a default smb.conf file as shown above then you should rename the current smb.conf file to smb.conf.old.
 This is done to preserve the default configuration file such that if any issue arises with the new one we created.
 ```console
 [wilcy@wilcy-pc samba]$ sudo mv smb.conf smb.conf.old
 ```
-Use a text editor to edit or create the smb.conf file as follows: You can use any text editor like vim,nano,gedit etc.
+Use a text editor to edit or create the smb.conf file. You can use any text editor like vim,nano,gedit etc.
 ```console
 [wilcy@wilcy-pc samba]$ sudo nano smb.conf
 [sudo] password for wilcy:
