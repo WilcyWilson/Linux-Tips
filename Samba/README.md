@@ -22,7 +22,12 @@ In Linux Terminal go to /etc/samba and create a smb.conf file if there are none.
 private  smb.conf
 [wilcy@wilcy-pc samba]$
 ```
-Use a text editor to edit the smb.conf file. You can use any text editor like vim,nano,gedit etc.
+If there is already a default smb.conf file as shown above then you should rename the current smb.conf file to smb.conf.old as follows:
+This is done to preserve the default configuration file such that if any issue arises with the new one we created.
+```console
+[wilcy@wilcy-pc samba]$ sudo mv smb.conf smb.conf.old
+```
+Use a text editor to edit or create the smb.conf file as follows: You can use any text editor like vim,nano,gedit etc.
 ```console
 [wilcy@wilcy-pc samba]$ sudo nano smb.conf
 [sudo] password for wilcy:
@@ -36,3 +41,23 @@ Overwrite the file with following texts:
         hosts allow = 192.168.0.0/16
         hosts deny = 0.0.0.0/0
 ```
+### Role of each command written above:
+- [global] is always the first tab you define.
+
+- server role = standalone server  (This defines our linux server role as standalone server)
+
+- map to guest = Bad User ( This says if someone does an anonymous login or fails to login correctly, 
+what do we do with the user? Do, we put them as guest if they are bad user.) 
+If you never want anybody to use your server on a failed login or anonymous login then you would put
+map to guest = never
+
+- So, since we mapped bad user as guest. We need to allow the guests using
+usershare allow guests = yes
+
+- After this we are going to add a little bit of security to our samba share.
+hosts allow =  192.168.0.0/16 (Any ip that starts with 192.168 will be allowed to connect to the samba share server. 
+This defines any private ip address that will fall into a residental home address will be allowed)
+
+- hosts deny = 0.0.0.0/0
+This denies anything that is not in the range above.
+Say a hacker gets in from an external ip he would be denied.
