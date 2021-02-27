@@ -108,5 +108,27 @@ Server role: ROLE_STANDALONE
 
 Press enter to see a dump of your service definitions
 ```
-
+## Checking Samba status on Linux
+```console
+[wilcy@wilcy-pc samba]$ systemctl status smb
+● smb.service - Samba SMB Daemon
+     Loaded: loaded (/usr/lib/systemd/system/smb.service; enabled; vendor preset: disabled)
+     Active: active (running) since Sat 2021-02-27 19:52:23 +0545; 53min ago
+       Docs: man:smbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+   Main PID: 661 (smbd)
+     Status: "smbd: ready to serve connections..."
+      Tasks: 4 (limit: 3563)
+     Memory: 18.5M
+     CGroup: /system.slice/smb.service
+             ├─661 /usr/bin/smbd --foreground --no-process-group
+             ├─702 /usr/bin/smbd --foreground --no-process-group
+             ├─703 /usr/bin/smbd --foreground --no-process-group
+             └─705 /usr/bin/smbd --foreground --no-process-group
+```
+```console
+[wilcy@wilcy-pc samba]$ sudo systemctl restart smb
+```
+You can also start,stop,restart other services like Samba using systemctl or service command on Linux.
 
