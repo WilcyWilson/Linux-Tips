@@ -17,4 +17,7 @@ To install SSH: click on Start -> Settings Apps -> Apps and Features -> Manage O
 ![Installing SSH Client on Windows](sshInstallWin.gif)
 
 ## Checking SSH status on Linux
-```console
+```bash
+systemctl status sshd
+```
+You can start,stop,restart services and do various stuff using <b>systemctl</b> or <b>service</b> command on Linux.
