@@ -14,6 +14,25 @@ sudo apt install samba
 - The installation will now proceed and you should be able to access shares using the SMB 1 Protocol.<br><br>
 ![Samba Install Windows](installSambaWin.png)
 
-
-
-
+## Configuring Samba on Linux
+In Linux Terminal go to /etc/samba and create a smb.conf file if there are none.
+```console
+[wilcy@wilcy-pc ~]$ cd /etc/samba
+[wilcy@wilcy-pc samba]$ ls
+private  smb.conf
+[wilcy@wilcy-pc samba]$
+```
+Use a text editor to edit the smb.conf file. You can use any text editor like vim,nano,gedit etc.
+```console
+[wilcy@wilcy-pc samba]$ sudo nano smb.conf
+[sudo] password for wilcy:
+```
+Overwrite the file with following texts:
+```
+[global]
+        server role = standalone server
+        map to guest = bad user
+        usershare allow guests = yes
+        hosts allow = 192.168.0.0/16
+        hosts deny = 0.0.0.0/0
+```
