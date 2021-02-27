@@ -31,8 +31,36 @@ To install SSH: click on Start -> Settings Apps -> Apps and Features -> Manage O
 You can also start,stop,restart other services like SSH using <b>systemctl</b> or <b>service</b> command on Linux.
 
 ## Connecting to Linux PC from Windows 10 using SSH
-open command prompt on Windows -> follow the below steps.
+open command prompt on Windows -> follow the below steps -> don't forget to put the linux root password
+```console
+Microsoft Windows [Version 10.0.19042.844]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\wilso>ssh wilcy@wilcy-pc
+wilcy@wilcy-pc's password:
+Last login: Sat Feb 27 11:23:29 2021 from fe80::c006:25e:86e2:f29%enp3s4
+Last login: Sat Feb 27 11:23:29 2021 from fe80::c006:25e:86e2:f29%enp3s4
+[wilcy@wilcy-pc ~]$ neofetch
+                     ./o.                  wilcy@wilcy-pc
+                   ./sssso-                --------------
+                 `:osssssss+-              OS: EndeavourOS Linux x86_64
+               `:+sssssssssso/.            Kernel: 5.11.1-arch1-1
+             `-/ossssssssssssso/.          Uptime: 30 mins
+           `-/+sssssssssssssssso+:`        Packages: 1133 (pacman)
+         `-:/+sssssssssssssssssso+/.       Shell: bash 5.1.4
+       `.://osssssssssssssssssssso++-      Terminal: /dev/pts/1
+      .://+ssssssssssssssssssssssso++:     CPU: Intel Core 2 Duo E6750 (2) @ 2.133GHz
+    .:///ossssssssssssssssssssssssso++:    GPU: NVIDIA GeForce GT 610
+  `:////ssssssssssssssssssssssssssso+++.   Memory: 504MiB / 2985MiB
+`-////+ssssssssssssssssssssssssssso++++-
+ `..-+oosssssssssssssssssssssssso+++++/`
+   ./++++++++++++++++++++++++++++++/:.
+  `:::::::::::::::::::::::::------``
+
+[wilcy@wilcy-pc ~]$
+```
 ![Logging into SSH](sshLogin.png)
+
 Here, <b>wilcy</b> is the Linux username and <b>wilcy-pc</b> is the hostname of the Linux System.
 type the following commands to know about hostname and username on Linux.
 ```console
