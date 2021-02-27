@@ -4,7 +4,7 @@ applications include remote command-line, login, and remote command execution, b
 
 ## Installing SSH Server on Linux
 [OpenSSH](https://www.openssh.com/) is the tool used for remote login with SSH Protocol. Most Linux Distros have this already installed on their system.
-But you can use your favourable package manager to install OpenSSH on your system.
+But you can use your favourite package manager to install OpenSSH on your system.
 Command to install OpenSSH on Ubuntu:
 ```bash
 sudo apt install openssh-server
@@ -62,7 +62,7 @@ Last login: Sat Feb 27 11:23:29 2021 from fe80::c006:25e:86e2:f29%enp3s4
 ![Logging into SSH](sshLogin.png)
 
 Here, <b>wilcy</b> is the Linux username and <b>wilcy-pc</b> is the hostname of the Linux System.
-Type the following commands to know about hostname and username on Linux.
+Type the following commands on your Linux System to know about hostname and username.
 ```console
 [wilcy@wilcy-pc ~]$ whoami
 wilcy
