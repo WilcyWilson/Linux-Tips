@@ -93,4 +93,20 @@ Right now, this linux share is not owned and operated by anybody, so, you being 
 
 Save the config file and exit.
 
-### Checking if 
+![Samba Install Windows](configSamba.png)
+
+### Checking configuration file for any errors
+Inside /etc/samba we use the command testparm to check if there are any errors in our smb.conf file.
+We can see there are no syntax errors in our smb.conf file as shown below.
+```console
+[wilcy@wilcy-pc ~]$ cd /etc/samba
+[wilcy@wilcy-pc samba]$ testparm
+Load smb config files from /etc/samba/smb.conf
+Loaded services file OK.
+Weak crypto is allowed
+Server role: ROLE_STANDALONE
+
+Press enter to see a dump of your service definitions
+```
+
+
