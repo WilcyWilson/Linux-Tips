@@ -8,4 +8,4 @@ Command to install OpenSSH on Ubuntu:
 ```bash
 sudo apt install openssh-server
 ``` 
-[SSH Install Image](sshInstall.jpg) 
+[Click to see SSH Install Demonstration](sshInstall.jpg) 
