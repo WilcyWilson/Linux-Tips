@@ -93,3 +93,4 @@ Right now, this linux share is not owned and operated by anybody, so, you being 
 
 Save the config file and exit.
 
+### Checking if 
