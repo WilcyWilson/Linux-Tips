@@ -3,5 +3,9 @@ SSH or Secure Shell is a cryptographic network protocol for operating network se
 applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH.
 ### Installing SSH Server in Linux
 [OpenSSH](https://www.openssh.com/) is the tool used for remote login with SSH Protocol. Most Linux Distros have this already installed on their system.
-But you can use your favourable package manager to install OpenSSH on your system.</br></br>
+But you can use your favourable package manager to install OpenSSH on your system.<br><br>
 Example for Ubuntu is shown below:
+```bash
+sudo apt install openssh-server
+``` 
+[SSH Install Image](https://www.openssh.com/) 
