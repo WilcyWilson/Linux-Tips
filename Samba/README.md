@@ -155,3 +155,7 @@ We can see 192.168.0.111 is the Local IP Address of our Linux system.
 
 On Windows System type the same IP Address in Windows Run \\\192.168.0.111 as shown below:
 
+![Samba Demo Windows](demoSambaWin.gif)
+
+Here, we can see the Linux drives and its folders and files are visible on Windows using Samba.
+
