@@ -153,5 +153,5 @@ Type the following command to find the Local IP Address of your Linux System.
 ```
 We can see 192.168.0.111 is the Local IP Address of our Linux system.
 
-On Windows System type the same IP Address in Windows Run \\192.168.0.111 as shown below:
+On Windows System type the same IP Address in Windows Run \\\192.168.0.111 as shown below:
 
