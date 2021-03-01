@@ -3,3 +3,4 @@ Open up a Terminal in Linux. You can either use GUI to navigate to the terminal 
 
 ### ls - Lists directory contents.
 If you run ls without any arguments, it lists the file in the present working directory.
+
