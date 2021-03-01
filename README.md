@@ -5,3 +5,6 @@ Goal - We will login to Linux bash staying on Windows using SSH.
 ### [Samba](https://github.com/WilcyWilson/Linux-Study/blob/main/Samba/README.md)
 Info - Samba enables file sharing across different operating systems over a network.<br>
 Goal - Using Samba to share Linux files across Windows.
+### [Basic Linux Commands](https://github.com/WilcyWilson/Linux-Study/blob/main/BasicLinuxCommands/README.md)
+Info - Learn Basic Linux Commands to start your Linux Journey.<br>
+Goal - To Learn about Basic Linux Commands.
