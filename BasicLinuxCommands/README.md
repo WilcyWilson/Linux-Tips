@@ -8,3 +8,15 @@ If you run ls without any arguments, it lists the file in the present working di
  Desktop   Documents   Downloads  'Games Backup'   Music   Pictures   Public   Templates   Videos
 ```
 "ls -l" displays the directories and files in a long listing format. We get more information about the files and directories displayed.
+```console
+[wilce@wilce ~]$ ls -l
+total 32
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 09:15 Desktop
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Documents
+drwxr-xr-x 7 wilce wilce 4096 Mar  7 06:28 Downloads
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Music
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Pictures
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Public
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Templates
+drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Videos
+```
