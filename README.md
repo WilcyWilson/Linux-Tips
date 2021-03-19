@@ -9,5 +9,5 @@ Goal - Using Samba to share Linux files across Windows.
 Info - Learn Basic Linux Commands to start your Linux Journey.<br>
 Goal - To Learn about Basic Linux Commands.
 ### [Automatically Mount Drive Through GUI During Boot]()
-Info - Learn about mounting your drives through Gnome Disks
+Info - Learn about mounting your drives through Gnome Disks<br>
 Goal - To Learn about Mounting Drive During Boot
