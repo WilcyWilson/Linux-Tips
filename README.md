@@ -8,6 +8,6 @@ Goal - Using Samba to share Linux files across Windows.
 ### [Basic Linux Commands](https://github.com/WilcyWilson/Linux-Study/blob/main/BasicLinuxCommands/README.md)
 Info - Learn Basic Linux Commands to start your Linux Journey.<br>
 Goal - To Learn about Basic Linux Commands.
-### [Automatically Mount Drive Through GUI During Boot]()
+### [Automatically Mount Drive Through GUI During Boot](https://github.com/WilcyWilson/Linux-Study/tree/main/AutomaticallyMountYourDrivesDuringBootThroughGUI)
 Info - Learn about mounting your drives through Gnome Disks<br>
 Goal - To Learn about Mounting Drive During Boot
