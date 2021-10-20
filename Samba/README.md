@@ -170,7 +170,7 @@ Here, we can see the Linux drives and its folders and files are visible on Windo
         path = /home/wilcy
         read only = no
         guest ok = yes
-        valid users = wilce
+        valid users = wilcy
         force user = wilcy
         force group = wilcy
 ```
