@@ -159,3 +159,20 @@ On Windows System type the same IP Address in Windows Run \\\192.168.0.111 as sh
 
 Here, we can see the Linux drives and its folders and files are visible on Windows using Samba.
 
+## Adding a samba user
+
+```console
+[wilcy@wilcy-pc samba]$ sudo smbpasswd -a wilcy
+```
+```
+[Linux File System]
+        comment = Linux Main
+        path = /home/wilcy
+        read only = no
+        guest ok = yes
+        valid users = wilce
+        force user = wilcy
+        force group = wilcy
+```
+
+Now, you just have to type in the password to access the drives remotely.
