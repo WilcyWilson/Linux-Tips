@@ -10,4 +10,7 @@ Info - Learn Basic Linux Commands to start your Linux Journey.<br>
 Goal - To Learn about Basic Linux Commands.
 ### [Automatically Mount Drive Through GUI During Boot](https://github.com/WilcyWilson/Linux-Study/blob/main/AutomaticallyMountYourDrivesDuringBootThroughGUI#readme)
 Info - Learn about mounting your drives through Gnome Disks<br>
-Goal - To Learn about Mounting Drive During Boot
+Goal - To Learn about auto Mounting Drive During Boot
+### [Better Way to Mount Drive Using blkid and fstab](https://github.com/WilcyWilson/Linux-Study/blob/main/AutomaticallyMountYourDrivesDuringBootThroughGUI#readme)
+Info - Learn about mounting your drives through blkid and fstab
+Goal - To Learn about auto Mounting Drive During Boot
