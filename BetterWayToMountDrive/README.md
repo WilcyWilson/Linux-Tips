@@ -1,4 +1,4 @@
-# Warning: Please use with caution since any changes in UUID value or the fstab configuration file can cause your system to not boot.
+# Warning: Please use with caution since any mistakes in UUID value or the fstab configuration file can cause your system to not boot.
 ## What is blkid?
 The blkid program is the command-line interface to working with libblkid(3) library. It can determine the type of content (e.g. filesystem, swap) a block device holds, and also attributes (tokens, NAME=value pairs) from the content metadata (e.g. LABEL or UUID fields).
 
