@@ -14,3 +14,6 @@ Goal - To Learn about auto Mounting Drive During Boot
 ### [Better Way to Mount Drive Using blkid and fstab](https://github.com/WilcyWilson/Linux-Tips/tree/master/BetterWayToMountDrive#readme)
 Info - Learn about mounting your drives through blkid and fstab<br/>
 Goal - To Learn about auto Mounting Drive During Boot
+### [Setting Up MySQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#readme)
+Info - Learn about how to setup MySQL in Arch Linux<br/>
+Goal - To Learn about setting up MySQL
