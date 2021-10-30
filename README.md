@@ -17,3 +17,6 @@ Goal - To Learn about auto Mounting Drive During Boot
 ### [Setting Up MySQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#readme)
 Info - Learn about how to setup MySQL in Arch Linux<br/>
 Goal - To Learn about setting up MySQL
+### [Using Timeshift to create System Snapshots](https://github.com/WilcyWilson/Linux-Tips/tree/master/UsingTimeshift#readme)
+Info - Learning about Timeshift and how to use it<br/>
+Goal - To Learn about Timeshift
