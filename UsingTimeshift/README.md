@@ -29,7 +29,7 @@ Net Upgrade Size:      0.00 MiB
 ![time2](time2.png)
 
 ## Recovering using Timeshift
-- If you can't boot to your current system or revert back to previous snapshot for any reason, you need to create a bootable linux media on a pendrive and boot to the live bootable drive. 
+- If you can't boot to your current system or you want to revert back to previous snapshot for some reason, you need to create a bootable linux media on a pendrive and boot to the live bootable drive. 
 - Now, just open Timeshift on that live media and point Timeshift to the drive where you have stored your snapshot. Then
 just click restore.
 - You should boot into your old snapshot in no time.
