@@ -23,3 +23,6 @@ Goal - To Learn about Timeshift
 ### [Easily Changing Themes on XFCE DE using ocs-url](https://github.com/WilcyWilson/Linux-Tips/tree/master/XfceThemeUsingOcs#readme)
 Info - Learn how to add new themes to your XFCE Desktop Environment<br/>
 Goal - To change our XFCE DE Theme
+### [Using CoreCtrl to Overclock your CPU/GPU](https://github.com/WilcyWilson/Linux-Tips/tree/master/CoreCtrl#readme)
+Info - Learn how to install CoreCtrl and run it at Startup<br/>
+Goal - To Overclock your CPU/GPU on startup
