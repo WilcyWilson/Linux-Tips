@@ -26,3 +26,6 @@ Goal - To change our XFCE DE Theme
 ### [Using CoreCtrl to Overclock your CPU/GPU](https://github.com/WilcyWilson/Linux-Tips/tree/master/CoreCtrl#readme)
 Info - Learn how to install CoreCtrl and run it at Startup<br/>
 Goal - To Overclock your CPU/GPU on startup
+### [Enabling AUR Support in Pamac Package Manager](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme)
+Info - Learn how to enable AUR Support in Pamac<br/>
+Goal - To enable AUR support
