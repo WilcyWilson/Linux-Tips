@@ -1,3 +1,8 @@
+## What sort of themeing we are going to achieve
+
+![result](result.gif)
+
+
 ## Changing Appearance one at a time in System Settings
 
 Note: Not Global Theme, if you want to change individual appearance of your system
@@ -36,7 +41,5 @@ Note: Not Global Theme, if you want to change individual appearance of your syst
 ![splash](splash.png)
 
 
-## Final Result of themeing your KDE Plasma Desktop
 
-![result](result.gif)
 
