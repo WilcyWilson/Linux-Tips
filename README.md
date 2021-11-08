@@ -17,5 +17,5 @@
 - Learn how to add new themes to your XFCE Desktop Environment
 ### [Using CoreCtrl to Overclock your CPU/GPU](https://github.com/WilcyWilson/Linux-Tips/tree/master/CoreCtrl#readme) 
 - Learn how to install CoreCtrl and run it at Startup
-### [Enabling AUR Support in Pamac Package Manager](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme) 
-- Learn how to enable AUR Support in Pamac
+### [Enabling AUR Support in Pamac Package Manager in a Arch Distro](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme) 
+- Learn how to enable AUR Support in Pamac in a Arch Distro
