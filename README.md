@@ -19,3 +19,5 @@
 - Learn how to install CoreCtrl and run it at Startup
 ### [Enabling AUR Support in Pamac Package Manager in a Arch Distro](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme) 
 - Learn how to enable AUR Support in Pamac in a Arch Distro
+### [Making your KDE DE your own](https://github.com/WilcyWilson/Linux-Tips/tree/master/KDEPlasmaThemes#readme) 
+- Learn how to change themes on your KDE Plasma DE.
