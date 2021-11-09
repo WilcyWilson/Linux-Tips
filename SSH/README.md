@@ -70,4 +70,31 @@ wilcy
 wilcy-pc
 ```
 
+## Connecting to a Linux PC from different Linux PC using SSH
 
+```bash
+[wilson@wilson-pc ~]$ ssh wilce@wilce-pc.local
+wilce@wilce-pc.local's password: 
+Last login: Tue Nov  9 18:07:48 2021 from 192.168.0.105
+[wilce@wilce-pc ~]$ neofetch
+██████████████████  ████████   wilce@wilce-pc 
+██████████████████  ████████   -------------- 
+██████████████████  ████████   OS: Manjaro Linux x86_64 
+██████████████████  ████████   Host: 80L0 Lenovo G50-80 
+████████            ████████   Kernel: 5.13.19-2-MANJARO 
+████████  ████████  ████████   Uptime: 1 hour, 48 mins 
+████████  ████████  ████████   Packages: 1236 (pacman) 
+████████  ████████  ████████   Shell: bash 5.1.8 
+████████  ████████  ████████   Resolution: 1366x768 
+████████  ████████  ████████   Terminal: /dev/pts/1 
+████████  ████████  ████████   CPU: Intel i3-4030U (4) @ 1.800GHz 
+████████  ████████  ████████   GPU: Intel Haswell-ULT 
+████████  ████████  ████████   Memory: 1661MiB / 7874MiB 
+████████  ████████  ████████
+                                                       
+                                                       
+
+
+[wilce@wilce-pc ~]$ 
+
+```
