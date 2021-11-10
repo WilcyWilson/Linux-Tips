@@ -21,3 +21,5 @@
 - Learn how to enable AUR Support in Pamac in a Arch Distro
 ### [Making your KDE DE your own](https://github.com/WilcyWilson/Linux-Tips/tree/master/KDEPlasmaThemes#readme) 
 - Learn how to change themes on your KDE Plasma DE.
+### [Fix Windows and Linux Showing Different System Time When Dual Booting](https://github.com/WilcyWilson/Linux-Tips/tree/master/TimeDateDualBoot#readme) 
+- Learn how to fix System Time issue while dual booting Windows and Linux.
