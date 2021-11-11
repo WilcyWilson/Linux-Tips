@@ -30,6 +30,18 @@ To install SSH: click on Start -> Settings Apps -> Apps and Features -> Manage O
 ```
 You can also start,stop,restart other services like SSH using <b>systemctl</b> or <b>service</b> command on Linux.
 
+```console
+[wilcy@wilcy-pc ~]$sudo systemctl enable sshd
+```
+
+This command enables the sshd service to auto-run at boot.
+
+```console
+[wilcy@wilcy-pc ~]$sudo systemctl start sshd
+```
+
+This command starts the sshd service for the first time, if sshd is not active.
+
 ## Connecting to Linux PC from Windows 10 using SSH
 open command prompt on Windows -> follow the below steps -> write the linux root password when prompted
 ```console
