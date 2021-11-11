@@ -11,4 +11,4 @@
 - ### [Enabling AUR Support in Pamac Package Manager in a Arch Distro](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme) 
 - ### [Making your KDE DE your own](https://github.com/WilcyWilson/Linux-Tips/tree/master/KDEPlasmaThemes#readme) 
 - ### [Fix Windows and Linux Showing Different System Time When Dual Booting](https://github.com/WilcyWilson/Linux-Tips/tree/master/TimeDateDualBoot#readme) 
-- ### [Fix Microphone Background Noise on Arch Linux by enabling Microphone echo/noise cancellation](https://github.com/WilcyWilson/Linux-Tips/tree/master/FixMicrohponeNoise#readme) 
+- ### [Fix Microphone Background Noise on Arch Linux by enabling Microphone echo/noise cancellation](https://github.com/WilcyWilson/Linux-Tips/tree/master/FixMicrophoneNoise#readme) 
