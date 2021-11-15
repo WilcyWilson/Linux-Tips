@@ -24,7 +24,22 @@
 
 ![rufus](rufus.png)
 
-- Point to the Linux Distro ISO by clicking select.
+- Point to the Arch Linux Distro ISO by clicking select.
 
 - Make sure you choose GPT on your partition scheme and Target System as UEFI.
+
+![dualboot](dualboot.png)
+
+- Choose the boot/efi which contains the efi files for windows.
+Do not format it. Just choose boot/efi partition. Choose boot flag.
+
+![efi](efi.png)
+
+- Choose a root partition with ext4 as file system and root flag.
+
+![root](root.png)
+
+- Choose swap partition (optional) with linuxswap as file system and swap flag.
+
+![swap](swap.png)
 
