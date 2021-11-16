@@ -14,7 +14,7 @@
 C:\> bcedit /enum firmware
 ```
 
-[efi](efi.png)
+![efi](efi.png)
 
 - This is the result which shows all the efi entries in our system
 
