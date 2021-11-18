@@ -20,3 +20,14 @@ drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Public
 drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Templates
 drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Videos
 ```
+
+## Accessing the Root User
+
+```console
+[wilce@wilce-pc ~]$ su - root
+Password: 
+[wilce-pc ~]# 
+```
+
+- You need the root password to access the root user
+
