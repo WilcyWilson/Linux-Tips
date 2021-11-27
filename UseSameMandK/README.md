@@ -1,4 +1,6 @@
-## Steps
+## Control two or more PC's using same Mouse and Keyboard
+
+### Steps
 
 - Install Barrier on both your systems through package manager or directly downloading from the git.
 

@@ -14,4 +14,4 @@
 - ### [Fix Microphone Background Noise on Arch Linux by enabling Microphone echo/noise cancellation](https://github.com/WilcyWilson/Linux-Tips/tree/master/FixMicrophoneNoise#readme) 
 - ### [Dual boot Arch Linux and Windows 10 on an EFI System](https://github.com/WilcyWilson/Linux-Tips/tree/master/DualBootEFI#readme) 
 - ### [Remove Old EFI Entries from Boot Menu](https://github.com/WilcyWilson/Linux-Tips/tree/master/RemoveOldEFI#readme) 
-- ### [Use Same Mouse and Keyboard on two or more PCs](https://github.com/WilcyWilson/Linux-Tips/tree/master/UseSameMandK#readme)
+- ### [Control two or more PC's using same Mouse and Keyboard](https://github.com/WilcyWilson/Linux-Tips/tree/master/UseSameMandK#readme)
