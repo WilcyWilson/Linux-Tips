@@ -30,7 +30,7 @@ Password:
 ```
 
 - You need the root password to access the root user
-- You can access other users similarly
+- You can access other users in the system similarly
   
 ## Common Top Level Directories and its Usage in a Linux Operating System
 
