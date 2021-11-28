@@ -30,4 +30,8 @@ Password:
 ```
 
 - You need the root password to access the root user
+- You can access other users similarly
+  
+## Common Top Level Directories and its Usage in a Linux Operating System
 
+![Top Leve](toplevel.png)
