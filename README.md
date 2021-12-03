@@ -15,3 +15,4 @@
 - ### [Dual boot Arch Linux and Windows 10 on an EFI System](https://github.com/WilcyWilson/Linux-Tips/tree/master/DualBootEFI#readme) 
 - ### [Remove Old EFI Entries from Boot Menu](https://github.com/WilcyWilson/Linux-Tips/tree/master/RemoveOldEFI#readme) 
 - ### [Control two or more PC's using same Mouse and Keyboard](https://github.com/WilcyWilson/Linux-Tips/tree/master/UseSameMandK#readme)
+- ### [Setting Up PostgreSQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpPostgreSqlInArchLinux#readme)
