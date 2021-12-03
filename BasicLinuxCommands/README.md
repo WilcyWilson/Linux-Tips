@@ -21,6 +21,18 @@ drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Templates
 drwxr-xr-x 2 wilce wilce 4096 Mar  7 02:34 Videos
 ```
 
+## Details that ls -l command provides
+
+![details](details.jpg)
+
+- The series of characters represents the directory or file permission. 
+- Second information is number of links to that file or directory.
+- 3rd information is who the owner of that file is.
+- 4th information is what group that file belongs to.
+- The size of that file in bytes.
+- Last time that file or directory was modified. 
+- Name of the file or directory itself.
+
 ## Accessing the Root User
 
 ```console
