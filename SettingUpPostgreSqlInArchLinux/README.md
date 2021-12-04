@@ -55,7 +55,7 @@ wil=# select current_user;
 (1 row)
 ```
 
-- Create a new role with necessary privileges and setting it.
+- Create a new role with necessary privileges and set it.
 
 ```console
 wil=# create role wilcy with superuser login createdb;
