@@ -1,4 +1,4 @@
-### Note: This guide assumes you have Windows 10 alredy installed and running on your system
+### Note: This guide assumes you have Windows 10 already installed and running on your system
 ### And this guide is only for UEFI Systems
 ### Keep a USB flash drive ready
 
