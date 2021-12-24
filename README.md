@@ -16,10 +16,10 @@
 - #### [Remove Old EFI Entries from Boot Menu](https://github.com/WilcyWilson/Linux-Tips/tree/master/RemoveOldEFI#readme) 
 
 ### Things you must know and learn while using Arch Linux
+- #### [Basic Linux Commands](https://github.com/WilcyWilson/Linux-Study/blob/master/BasicLinuxCommands#readme) 
 - #### [Automatically Mount Drive Through GUI During Boot](https://github.com/WilcyWilson/Linux-Study/blob/master/AutomaticallyMountYourDrivesDuringBootThroughGUI#readme) 
 - #### [Better Way to Mount Drive Using blkid and fstab](https://github.com/WilcyWilson/Linux-Tips/tree/master/BetterWayToMountDrive#readme) 
 - #### [Enabling AUR Support in Pamac Package Manager in a Arch Distro](https://github.com/WilcyWilson/Linux-Tips/tree/master/EnableAURSupport#readme) 
-- #### [Basic Linux Commands](https://github.com/WilcyWilson/Linux-Study/blob/master/BasicLinuxCommands#readme) 
 - #### [Using Timeshift to create System Snapshots](https://github.com/WilcyWilson/Linux-Tips/tree/master/UsingTimeshift#readme) 
 - #### [Using CoreCtrl to Overclock your CPU/GPU](https://github.com/WilcyWilson/Linux-Tips/tree/master/CoreCtrl#readme) 
 
