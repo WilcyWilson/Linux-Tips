@@ -79,3 +79,13 @@ So, you have 100 documents to rename then from the shell you can rename 100 docu
 - Desktop Distributions have both GUI and CLI which is best of both worlds. Each has its own advantage.
 
 - There are even command line web browsers on linux.
+
+## What is a Shell Prompt? What information does it give?
+A shell prompt is something that is displayed when the shell is started.
+
+- The prompt just sits there and waits for you to type the command.
+- The shell prompt gives you useful information like username@name of linux system you are connected to.
+- jason is the username and linuxsvr is the name of linux system you are connected to.
+- At the end of the prompt you see a $ sign. This is the indication that you are using the system as a normal user as opposed to a super user.
+
+![paste-5d07ddb31acb0f0e6dda7d2cd24acd1756525fc1](https://user-images.githubusercontent.com/40534141/147317516-6ee62a47-4371-4e26-b021-44502955ab35.jpg)
