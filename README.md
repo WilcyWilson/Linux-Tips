@@ -9,6 +9,9 @@
 - #### [Setting Up MySQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpMySqlInArchLinux#readme) 
 - #### [Setting Up PostgreSQL in Arch Linux](https://github.com/WilcyWilson/Linux-Tips/tree/master/SettingUpPostgreSqlInArchLinux#readme)
 
+### Angular, npm and nvm
+- #### [Installing nvm on Arch](https://github.com/WilcyWilson/Linux-Tips/tree/master/InstallingNvmOnArch#readme) 
+
 ### Solving Common Issues while Dual Booting Windows 10 and Arch Linux
 - #### [Fix Windows and Linux Showing Different System Time When Dual Booting](https://github.com/WilcyWilson/Linux-Tips/tree/master/TimeDateDualBoot#readme) 
 - #### [Fix Microphone Background Noise on Arch Linux by enabling Microphone echo/noise cancellation](https://github.com/WilcyWilson/Linux-Tips/tree/master/FixMicrophoneNoise#readme) 
