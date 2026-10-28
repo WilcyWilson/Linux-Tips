@@ -73,6 +73,10 @@ Write the texts just after finishing the [global] tab configuration.
         guest ok = yes
         force user = wilcy
         force group = wilcy
+        create mask = 0775
+        directory mask = 0775
+        force create mode = 0775
+        force directory mode = 0775
 ```
 ### Role of each command written above:
 - [Linux File System] is our share name
@@ -90,6 +94,8 @@ Right now, this linux share is not owned and operated by anybody, so, you being 
 - force user = wilcy (Anything that is created is associated with the username wilcy)
 
 - force group = wilcy (This basically makes it to the local user named wilcy, it makes it so you can easily do this. Anybody that creates anything on this share, will basically be assigned this user wilcy where the user can do anything with the file)
+
+- create mask, directory mask, force create mode, force directory mode = Forces all files and folders to have 0755 permission
 
 Save the config file and exit.
 
